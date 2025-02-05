@@ -7,7 +7,7 @@ Mots clé : Analyses, protocoles Chronocaptures, Shiny, GeoNature, écologie, l�
 Usage
 -----
 
-Cette application Shiny (R) a pour objectif d'analyser de manière automatisée les données issues des protocoles "Chronocapture". Elle permet de lire directement les fichiers exportés depuis les modules Chronocaptures de GeoNature partagés par Flavia APE. 
+Cette application Shiny (R) a pour objectif d'analyser de manière automatisée les données issues des protocoles "Chronocapture". Elle repose sur les formats de données exportés par les modules "Chronocapture" de GeoNature partagés par Flavia APE. 
 
 Les Chronocaptures
 ------------------
@@ -33,3 +33,11 @@ Le code source de l'application est disponible dans ce dépôt. Il se compose es
 - server.R : code des fonctions et calculs opérés sur les données
 
 Ce code peut être déployé sur Shinyapps.io en se reportant à la documentation officielle. 
+
+
+Utilisation
+-----------
+
+- Déployer l'application
+- Ouvrir l'onglet correspondant à sa déclinaison du protocole
+- Déposer le fichier d'export au format "Analyse" généré par le module de saisie de GeoNature
